@@ -6,6 +6,10 @@
 	"engines": {
 		"vscode": "^1.44.0"
 	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/kodingright/Remove_Flutter_Default_Project_Comment_vscode.git"
+	},
 	"publisher": "kodingright",
 	"categories": [
 		"Other"
