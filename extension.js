@@ -9,7 +9,7 @@ function activate(context) {
 
 	let rcomment = new remover();
 
-	let disposable = vscode.commands.registerCommand('remover.dfpcr', function () {
+	let disposable = vscode.commands.registerCommand('remover.frm', function () {
 		vscode.window.showInformationMessage('Default Flutter Project Comment Remover');
 		rcomment.removeComments();
 	});
