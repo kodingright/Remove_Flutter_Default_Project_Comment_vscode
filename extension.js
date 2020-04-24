@@ -5,7 +5,7 @@ const remover = require('./remover');
  */
 function activate(context) {
 
-	console.log('Congratulations, your extension "remover" is now active!');
+	// console.log('Congratulations, your extension "remover" is now active!');
 
 	let rcomment = new remover();
 

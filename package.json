@@ -1,7 +1,7 @@
 {
-	"name": "remover",
-	"displayName": "remover",
-	"description": "",
+	"name": "frm",
+	"displayName": "Remove Flutter Comment from Default Project (frm)",
+	"description": "Removes Flutter Comment from Default Project",
 	"version": "0.0.1",
 	"engines": {
 		"vscode": "^1.44.0"
@@ -16,14 +16,14 @@
 	],
 	"icon": "no-comment.png",
 	"activationEvents": [
-		"onCommand:remover.dfpcr"
+		"onCommand:remover.frm"
 	],
 	"main": "./extension.js",
 	"contributes": {
 		"commands": [
 			{
-				"command": "remover.dfpcr",
-				"title": "DFPCR"
+				"command": "remover.frm",
+				"title": "Remove Flutter Comment from Default Project (frm)"
 			}
 		]
 	},
